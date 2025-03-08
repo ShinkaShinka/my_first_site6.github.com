@@ -1,0 +1,174 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #0d0e14;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: #13151f;
+    height: 9vh;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    align-content: center;
+}
+
+.site_name {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 2.3vw;
+}
+
+.get_back {
+    margin-top: 0px;
+    font-size: 2vw;
+    position: fixed;
+    right: 2vw;
+    top: 2vh;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: cyan;
+    }
+
+hr {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    height: calc(0.2vh);
+    border: 0;
+    background: #000000;
+}
+
+.content {
+    height: 50vh;
+    margin-top: 5vh;
+    padding-top: 10px;
+    padding-bottom: 1%;
+    text-align: center;
+}
+.contact_info {
+    font-size: 2.2vw;
+}
+.contact_telephone {
+    font-size: 1.7vw;
+}
+.contact_social_media {
+    font-size: 1.7vw;
+    margin-bottom: 5vh;
+}
+
+img {
+    width: 5vw;
+    height: 5vw;
+}
+
+    img:hover {
+        width: 6vw;
+        height: 6vw;
+    }
+
+footer {
+    width: 100%;
+    margin-top: 25%;
+    margin-bottom: 0px;
+    color: darkcyan;
+    background-color: #13151f;
+    height: 11vh;
+    font-size: 15px;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+.footinfo {
+    align-items: center;
+    text-align: center;
+}
+.footinfo_text {
+    font-size: 3vh;
+}
+
+@media(max-width:550px){
+    header {
+        background-color: #13151f;
+        height: 7vw;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        align-content: center;
+    }
+    .site_name {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+        font-size: 3.3vw;
+    }
+    .get_back {
+        margin-top: 0px;
+        font-size: 3vw;
+        position: fixed;
+        right: 2vw;
+        top: 1.75vw;
+    }
+    .content {
+        height: 60vh;
+        margin-top: 10vh;
+        padding-top: 10px;
+        padding-bottom: 1%;
+        text-align: center;
+    }
+    .contact_info {
+        font-size: 3.3vw;
+    }
+    .contact_telephone {
+        font-size: 2.8vw;
+    }
+    .contact_social_media {
+        font-size: 2.8vw;
+        margin-bottom: 3vh;
+    }
+    img {
+        width: 12vw;
+        height: 12vw;
+    }
+        img:hover {
+            width: 15vw;
+            height: 15vw;
+        }
+    footer {
+        width: 100%;
+        margin-top: 25%;
+        margin-bottom: 0px;
+        color: darkcyan;
+        background-color: #13151f;
+        height: 7vw;
+        font-size: 15px;
+        align-items: center;
+        position: fixed;
+        bottom: 0px;
+    }
+
+    .footinfo_text {
+        font-size: 2vw;
+    }
+}
